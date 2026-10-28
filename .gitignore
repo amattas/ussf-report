@@ -1,0 +1,5 @@
+out/
+diag/
+*.svg
+__pycache__/
+.DS_Store

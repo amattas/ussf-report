@@ -1,0 +1,137 @@
+{
+  "header": {
+    "date_time": "September 6, 2026, 10:00 AM",
+    "location": "Example Park, Field 2",
+    "event": "Example Youth League",
+    "referee": "Referee Name",
+    "assistant_referees": "Alex Rivera (AR1), Sam Chen (AR2)",
+    "game_number": "000000",
+    "home": "Riverside FC G2014, Score 1",
+    "away": "Hilltop SC G2014, Score 0"
+  },
+  "timing": "30-minute halves. The first half ran 31 minutes and the second half ran 32 minutes. Minutes in this report are as logged in RefSix, which uses a running clock and started the second half at 34'.",
+  "reports": [
+    {
+      "filename": "Supplemental Report - 000000 - Hilltop 7 Send-Off",
+      "title": "Incident 1: Send-off, Hilltop SC #7",
+      "subject": [
+        [
+          "Player:",
+          "#7 Jordan Example, Hilltop SC G2014"
+        ],
+        [
+          "Misconduct:",
+          "Caution UB (20'), Caution UB (51'), Sent off for second caution (51')"
+        ]
+      ],
+      "sections": [
+        {
+          "label": "20th minute:",
+          "text": "Near the halfway line, Hilltop SC #7 pulled a Riverside FC attacker to the ground by the shirt, stopping a promising attack. I cautioned #7 for unsporting behavior. Play restarted with a direct free kick to Riverside FC at the location of the foul."
+        },
+        {
+          "label": "51st minute:",
+          "text": "In the middle third, assistant referee Sam Chen signaled a foul by Hilltop SC #7. My view of the challenge was blocked by two players. I stopped play and consulted with the AR, who reported that #7 tackled a Riverside FC player from behind with studs raised after the ball had been played away. I cautioned #7 for unsporting behavior (reckless foul). This was her second caution of the match, so I showed the red card and sent her off. Play restarted with a direct free kick to Riverside FC at the location of the foul.",
+          "diagram": "example51"
+        },
+        {
+          "text": "#7 left the field without incident."
+        }
+      ]
+    }
+  ],
+  "diagrams": {
+    "example51": {
+      "goal_at_top": true,
+      "elements": [
+        {
+          "type": "sight",
+          "x1": 330,
+          "y1": 360,
+          "x2": 590,
+          "y2": 335
+        },
+        {
+          "type": "other",
+          "x": 470,
+          "y": 345
+        },
+        {
+          "type": "other",
+          "x": 478,
+          "y": 378
+        },
+        {
+          "type": "text",
+          "x": 395,
+          "y": 300,
+          "t": "view blocked"
+        },
+        {
+          "type": "arrow",
+          "x1": 452,
+          "y1": 306,
+          "x2": 466,
+          "y2": 328,
+          "w": 2
+        },
+        {
+          "type": "lex",
+          "x": 596,
+          "y": 338,
+          "label": "7"
+        },
+        {
+          "type": "opp",
+          "x": 626,
+          "y": 312,
+          "label": "RF"
+        },
+        {
+          "type": "ball",
+          "x": 592,
+          "y": 410
+        },
+        {
+          "type": "arrow",
+          "x1": 592,
+          "y1": 420,
+          "x2": 592,
+          "y2": 488
+        },
+        {
+          "type": "text",
+          "x": 604,
+          "y": 470,
+          "t": "ball"
+        },
+        {
+          "type": "ref",
+          "x": 330,
+          "y": 360
+        },
+        {
+          "type": "text",
+          "x": 330,
+          "y": 405,
+          "t": "Referee",
+          "anchor": "middle"
+        },
+        {
+          "type": "ar",
+          "x": 700,
+          "y": 385,
+          "label": "AR2"
+        },
+        {
+          "type": "text",
+          "x": 700,
+          "y": 425,
+          "t": "Chen",
+          "anchor": "middle",
+          "size": 16
+        }
+      ]
+    }
+  }
+}
